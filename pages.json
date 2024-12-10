@@ -1,0 +1,371 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "启动页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/ratpass",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/myStudents",
+			"style": {
+				"navigationBarTitleText": "我的学生",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/layout",
+			"style": {
+				"navigationBarTitleText": "布置作业"
+			}
+		},
+		{
+			"path": "pages/home/schoolData",
+			"style": {
+				"navigationBarTitleText": "校区资料",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/courstArrange",
+			"style": {
+				"navigationBarTitleText": "布置作业",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/home/setWork",
+			"style": {
+				"navigationBarTitleText": "批改作业"
+				
+			}
+		},
+		{
+			"path": "pages/home/studentWork",
+			"style": {
+				"navigationBarTitleText": "我的学生"
+			}
+		},
+		{
+			"path": "pages/home/AIdetect",
+			"style": {
+				"navigationBarTitleText": "AI检测",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/teacherSet",
+			"style": {
+				"navigationBarTitleText": "修改作业",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/setContent",
+			"style": {
+				"navigationBarTitleText": "修改作业"
+			}
+		},
+		{
+			"path": "pages/home/fromWriting",
+			"style": {
+				"navigationBarTitleText": "重写评语"
+			}
+		},
+		{
+			"path": "pages/home/aiComments",
+			"style": {
+				"navigationBarTitleText": "AI辅写评语",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/course/course",
+			"style": {
+				"navigationBarTitleText": "课程",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/course/classRoom",
+			"style": {
+				"navigationBarTitleText": "双师课堂",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/course/courseShare",
+			"style": {
+				"navigationBarTitleText": "课程分享",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/course/courseCode",
+			"style": {
+				"navigationBarTitleText": "分享二维码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mypage/mypage",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/mycode",
+			"style": {
+				"navigationBarTitleText": "我的二维码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/adverMess",
+			"style": {
+				"navigationBarTitleText": "公告消息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/adver_detail",
+			"style": {
+				"navigationBarTitleText": "查看详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/course/go_learn",
+			"style": {
+				"navigationBarTitleText": "学习",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/aiResult",
+			"style": {
+				"navigationBarTitleText": "AI测评结果",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mypage/complaint",
+			"style": {
+				"navigationBarTitleText": "投诉意见",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/mypage/contactUs",
+			"style": {
+				"navigationBarTitleText": "联系我们",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/mypage/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/home/individualmsg",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/correction",
+			"style": {
+				"navigationBarTitleText": "批改作业"
+			}
+		},
+		{
+			"path": "pages/mypage/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私设置",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/home/CreateGroup",
+			"style": {
+				"navigationBarTitleText": "创建班级群",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/inviteFriends",
+			"style": {
+				"navigationBarTitleText": "邀请好友",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/message/groupDetails",
+			"style": {
+				"navigationBarTitleText": "群详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/add_friends",
+			"style": {
+				"navigationBarTitleText": "添加好友",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "TUIKit/components/TUIConversation/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "TUIKit/components/TUIChat/index",
+			"style": {
+				"navigationBarTitleText": "腾讯云 IM"
+			}
+		},
+		{
+			"path": "TUIKit/components/TUIContact/index",
+			"style": {
+				"navigationBarTitleText": ""
+				
+			}
+		},
+		{
+			"path": "pages/views/profile",
+			"style": {
+				"navigationBarTitleText": "腾讯云 IM",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "TUIKit/components/TUIChat/video-play",
+			"style": {
+				"navigationBarTitleText": "腾讯云 IM",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "TUIKit/components/TUIChat/web-view",
+			"style": {
+				"navigationBarTitleText": "腾讯云 IM",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "TUIKit/components/TUIGroup/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "TUIKit/components/TUISearch/index",
+			"style": {
+				"navigationBarTitleText": "聊天记录"
+			}
+		},
+		{
+			"path": "TUIKit/components/TUIConversation/index2",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "TUIKit/components/TUISearch/search-more/index1",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+
+		{
+			"path": "TUIKit/components/TUIConversation/index3",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"selectedColor": "#1D56F9",
+		"color": "#444444",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "./static/img/inde.png",
+			"selectedIconPath": "./static/img/inde1.png",
+			"text": "主页"
+		}, {
+			"pagePath": "pages/course/course",
+			"iconPath": "./static/img/les.png",
+			"selectedIconPath": "./static/img/les1.png",
+			"text": "课程"
+		}, {
+			"pagePath": "pages/message/message",
+			"iconPath": "./static/img/xiaoxi.png",
+			"selectedIconPath": "./static/img/xiaoxi1.png",
+			"text": "消息"
+		}, {
+			"pagePath": "pages/mypage/mypage",
+			"iconPath": "./static/img/my.png",
+			"selectedIconPath": "./static/img/my1.png",
+			"text": "我的"
+		}]
+	},
+	"uniIdRouter": {}
+}
